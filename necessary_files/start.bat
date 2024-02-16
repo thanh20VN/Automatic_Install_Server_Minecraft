@@ -1,6 +1,11 @@
 @echo off
 title Server Mincrecaft
-goto start
+if exist "server.properties" (
+    goto start
+) else (
+    curl -s -L -o server.properties https://github.com/thanh20VN/Automatic_Install_Server_Minecraft/raw/main/necessary_files/server.properties
+)
+
 
 :start
 cls

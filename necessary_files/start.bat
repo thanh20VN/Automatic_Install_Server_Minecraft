@@ -9,7 +9,7 @@ java -Xms2G -Xmx2G -jar server.jar --nogui
 goto end
 
 :end
-cls
+echo ----------------------------------
 echo 1. Exit
 echo 2. Restart
 set/p "sle=>"

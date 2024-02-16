@@ -9,7 +9,7 @@ if exist "server.properties" (
 
 :start
 cls
-echo Use 2GB
+echo System: Use 2GB
 java -Xms2G -Xmx2G -jar server.jar --nogui
 goto end
 
